@@ -1,0 +1,66 @@
+.register {
+    
+    &__form
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;       
+        padding: 20px;
+        background-color: $color--very-light;
+        border: 1px solid $color--brand-main;
+         border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+
+    &__input
+    {
+        font-size: 14px;
+        line-height: 1.4;
+
+        display: block;
+
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 7px;
+
+        transition: all .30s ease-in-out;
+
+        color: $color--brand-main;
+        border: 1px solid rgba($color--brand-main,.3);
+        outline: none;
+
+        &:focus
+        {
+            border: 1px solid rgba($color--brand-main,.3);
+            box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+        }
+
+
+        
+    }
+
+    &__switch {
+
+      font-size: 14px;
+      text-align: center;
+      margin-top: 20px;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+
+    &__btn
+    {
+        margin-top: 20px;
+    }
+
+    &__label
+    {
+        cursor: pointer;
+    }
+
+    &__button
+    {
+        padding: 10px;
+    }
+}

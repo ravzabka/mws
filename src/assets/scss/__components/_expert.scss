@@ -1,0 +1,101 @@
+.expert {
+
+	padding-top: 30px;
+
+	&__item {
+
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		align-items: center;
+		min-width: 100%;
+		padding: 15px 20px;
+		border: 1px solid rgba($color--dark,.3);
+		border-top-left-radius: 20px;
+		border-bottom-right-radius: 20px;	
+
+	}	
+
+	&__image {
+
+		width: 150px;
+		height: auto;
+		border-radius: 50%;
+	}
+
+	&__name {
+
+		font-size: 14px;
+		margin: 0;
+		font-weight: bold;
+		margin-top: 10px;
+		text-align: center;
+	}
+
+	&__address {
+
+		font-size: 14px;
+		margin: 0;
+		font-weight: normal;
+		margin-top: 10px;
+	}
+
+
+	&__voivodeship {
+
+		font-size: 14px;
+		margin: 0;
+		font-weight: bold;
+		margin-top: 5px;
+		margin-bottom: 10px;
+	}
+
+	&__profession {
+
+		font-size: 14px;
+		margin: 0;
+		margin-top: 5px;
+	}
+
+
+	&__container {
+
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		margin-bottom: 30px;
+	}
+
+	&__phone {
+
+		width: 100%;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		display: flex;
+		align-items: center;
+		font-size: 14px;
+		
+
+		& > img {
+
+			margin-right: 20px;
+		}
+
+	}
+
+	&__email {
+
+		width: 100%;		
+		display: flex;
+		align-items: center;
+		
+		font-size: 14px;
+
+		& > img {
+
+			margin-right: 20px;
+		}
+	}
+
+}

@@ -1,0 +1,87 @@
+.events {
+
+	margin-bottom: 30px;	
+
+	&__item {		
+		
+		transition: all .3s ease-out;
+		margin-bottom: 5px;
+
+		& > p {
+
+			font-size: 14px;
+			font-family: $font--text;
+		}
+		&:not(:last-child) {
+
+			// border-bottom: 1px solid rgba($color--brand-main,.1);
+
+		}
+
+		
+	}	
+
+
+	&__desc {
+
+		font-size: 14px;
+	}
+
+	&__title {
+
+		font-size: 14px;
+		font-weight: 500;
+		margin-bottom: 0;	
+		margin-top: 0;
+		color: $color--brand-main;
+		font-family: $font--headings;
+
+	}
+
+	&__link {
+
+
+
+		color: $color--brand-main;
+
+		&:hover {
+
+			text-decoration: none;
+		}
+
+
+	}
+
+	&__place {
+
+		margin: 0;		
+		font-size: 12px;
+		font-weight: 600;
+		text-transform: uppercase;
+
+
+	}
+	&__date {
+
+		margin: 0;
+		font-size: 12px;
+	}
+}
+.calendar-event-mark {
+
+	display: none;
+}
+.n-tiva-calendar-compact .calendar-day-today {
+	background: #dfdfdf;
+}
+
+.n-tiva-calendar-compact .calendar-day-normal .calendar-day-event {
+
+	background-color: #cadbe9;	
+	border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 75%;
+    margin-left: 15%;
+    
+	
+}

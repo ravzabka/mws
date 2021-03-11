@@ -1,0 +1,28 @@
+.dotacje {
+
+	&__container {
+
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	&__item {
+
+		display: flex;
+		flex-direction: row;
+		margin-bottom: 20px;
+		border-bottom: 1px dashed rgba(105,105,105, .5);
+
+
+	}
+
+	&__item-content {
+
+		padding-left: 20px;
+	}
+
+
+}

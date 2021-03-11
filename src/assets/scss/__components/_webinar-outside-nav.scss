@@ -1,0 +1,28 @@
+.webinar-outside-nav {
+
+	& li.nav-item a {
+
+		border: none;
+		background-color: $color--light;
+		margin-right: 5px;
+		color: $color--brand-main;
+
+
+
+	}
+
+	& li.nav-item a.active {
+
+		background-color: $color--brand-main;
+		color: $color--white;
+	}
+
+
+
+
+}
+
+.tab-content-outside {
+
+	margin-top: 20px;
+}

@@ -1,0 +1,44 @@
+.metabox  {
+
+	margin-bottom: 5px;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+
+	&__category-tag {
+
+	padding: 3px 10px;
+	font-size: 10px;
+	font-weight: 500;
+	display: inline-block;
+	text-transform: uppercase;
+	color: $color--white;
+	background-color: $color--brand-main;
+
+
+
+		&--green {
+
+			background-color: $color--green!important;
+		}
+	}
+
+	&__date {
+
+		font-size: 11px;
+		font-weight: 400;		
+    	color:  $color--brand-main; 
+		letter-spacing: .5px;
+		font-family: $font--text;
+		text-transform: uppercase;
+		margin-right: 5px;
+		margin-bottom: 5px;
+    	padding: 4px 8px;  
+    	border-top-left-radius: 10px;
+    	border-bottom-right-radius: 10px;
+    	background-color: $color--light; 
+		
+
+
+	}
+}

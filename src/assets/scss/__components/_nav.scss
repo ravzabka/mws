@@ -1,0 +1,196 @@
+/*
+=============================================
+Main navigation
+=============================================
+*/
+
+.navbar {
+
+   width: 100%;
+   justify-content: flex-end;
+   padding: 0px!important; 
+   position: relative;
+   background-color: $color--brand-main;
+   
+}
+
+.nav-container .navbar-toggler {
+    color: $color--white;   
+    border-radius: 0;
+    border: 2px solid rgba($color--white,1);
+}
+
+.nav-container {
+
+    
+    padding-top: 10px; 
+     background: $color--brand-main;  
+
+   
+    @include media('>=lg') { 
+
+        padding-top: 0px;
+        padding-bottom: 0px;    
+
+        
+    }  
+}
+
+.navbar-nav {
+
+    padding-bottom: 10px;
+
+    @include media('>=lg') { 
+
+        padding: 0;
+       
+
+        
+    }  
+
+}
+
+
+.navbar-nav li a {
+    color: $color--white!important;
+    background: $color--brand-main;
+    text-transform: uppercase;
+   
+    text-decoration: none;
+    border-bottom: 2px solid transparent;  
+    text-align: center;
+    font-size: 13px;
+    display: block;
+    padding: 14px 10px 11px 10px;
+    border-bottom: 4px solid transparent;
+    transition: all .3s ease;  
+
+
+    &:hover {
+      
+       
+        color: $color--red!important;
+       
+        
+
+        @include media('>=lg') {
+
+            color: $color--white!important;
+            background: $color--brand-main;
+            border-bottom: 4px solid $color--red;   
+
+        }          
+    }
+}
+
+
+.navbar-nav .current-menu-item a {
+
+        background: $color--red;
+        color: $color--white;
+
+
+        @include media('>=lg') {
+
+            color: $color--white!important;
+            background: $color--brand-main;
+            border-bottom: 4px solid $color--red;   
+
+        } 
+  
+}
+
+.navbar-nav .current-menu-item-blue a {
+   
+    background: $color--blue;
+    color: $color--white;
+
+     @include media('>=lg') {
+
+        background: $color--brand-main;
+        border-bottom: 4px solid $color--blue;
+
+
+     }
+
+    &:hover {
+
+            background: $color--blue;       
+
+            color: $color--white!important;
+           
+            // border-bottom: 4px solid $color--blue;
+
+       @include media('>=lg') {
+
+            color: $color--white!important;
+            background: $color--brand-main!important;
+            border-bottom: 4px solid $color--blue;
+
+        }     
+         
+    }
+  
+}
+
+
+.navbar-nav .current-menu-item-green a {
+
+    background: $color--green;
+    color: $color--white;  
+
+    @include media('>=lg') {
+
+        background: $color--brand-main;
+        border-bottom: 4px solid $color--green;
+    }
+
+     &:hover {
+
+        background: $color--green;
+        color: $color--white!important;  
+
+         @include media('>=lg') {
+
+            color: $color--white!important;
+            background: $color--brand-main!important;
+            border-bottom: 4px solid $color--green;
+
+        }    
+    }  
+}
+
+.nav .navbar-toggler {
+
+   
+    outline: none;
+    border: 2px solid $color--white;  
+    margin-bottom: 10px;  
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.navbar-light .navbar-toggler-icon {
+
+    background-image: url('../images/menu-icon.png');
+
+    &:focus {
+
+      
+    }
+
+
+
+}
+
+.nav .navbar-toggler:focus {
+
+    outline: none;
+    border: 2px solid $color--white!important;
+
+
+    
+
+}
+
+

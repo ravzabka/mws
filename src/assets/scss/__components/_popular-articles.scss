@@ -1,0 +1,35 @@
+.popular-articles {
+
+	&__list {
+		margin-bottom: 20px;
+	}
+
+	&__item {
+
+		
+		position: relative;
+		border-bottom: 1px dashed rgba(105,105,105, .5);
+		// background: url("../images/apostrophe.png") no-repeat;
+		background-position-x: .5rem;
+		background-position-y: 0;
+		
+	}	
+
+	&__title {
+
+		font-size: 15px;
+		font-weight: 500;
+		margin-bottom: 10px;
+		padding-top: 5px;
+		z-index: 10;
+	}
+
+	&__link {
+
+		&:hover {
+
+			
+			text-decoration: underline;
+		}
+	}	
+}

@@ -1,0 +1,117 @@
+.newsletter-white {
+
+		
+		width: 100%;
+		color: $color--brand-main;	
+		padding: 25px 20px;
+		border: 1px solid rgba($color--brand-main,.3);	
+
+
+	&__form {
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: flex-start;
+
+		@include media('>=sm') {
+
+			flex-direction: row;
+
+		}
+
+	}
+
+	&__container {
+
+		
+	}
+
+	&__title {
+
+		font-size: 16px;
+		font-weight: 600;
+		margin-top: 0;		
+		margin-bottom: 10px;
+		padding: 0;
+		font-family: $font--headings;
+
+		@include media('>=md') { font-size: 24px; }
+	}
+
+	&__desc {
+
+		margin: 0;
+		margin-bottom: 20px;
+		font-size: 14px;
+	}
+
+	&__input {
+
+		border: 2px solid $color--white;
+		background-color: $color--white;
+		font-size: 14px;
+		padding: 10px;
+		color: $color--brand-main;
+		outline: none;
+		margin: 0;
+		width: 100%;
+		border-top-left-radius: 10px;
+		font-family: $font--headings;
+		margin-bottom: 10px;
+		
+
+			@include media('>=sm') {
+
+				margin-bottom: 0px;
+				width: auto;
+
+		 }
+		
+
+	}
+
+	&__form-container {
+
+		background-color: $color--light;
+		padding: 15px;
+		display: block;
+		width: auto;
+		text-align: center;
+
+		@include media('>=sm') {
+
+			display: inline-block;
+
+
+		}
+
+
+	}
+
+	&__button {
+
+		background-color:  rgba($color--brand-main,.9);
+		color: $color--white;
+		font-family: $font--headings;
+		font-size:14px;
+		padding: 12px 30px;		
+		cursor: pointer;
+		margin: 0 2px;
+		outline: none;
+		border-style: none;		
+		border-bottom-right-radius: 10px;
+		width: 100%;
+		@include media('>=sm') {
+			width: auto;
+		}
+
+		&:hover {
+
+			background-color:  $color--brand-main;
+
+		}
+
+
+	}
+}

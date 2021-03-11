@@ -1,0 +1,16 @@
+.social {
+
+	display: flex;
+	justify-content: flex-end;
+	height: 100%;
+	align-items: center;
+
+	&__icon {
+
+		width: 45px;
+		height: auto;
+		display: block;
+		margin-right: 6px;
+	}
+
+}

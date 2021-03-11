@@ -1,0 +1,51 @@
+.alert-box {
+
+	margin-top: 20px;
+	margin-bottom: 10px;
+
+	&__container {
+		
+		background-color: $color--light;
+		margin-bottom: 20px;
+		border-bottom-right-radius: 15px;
+		border-top-left-radius: 15px;
+	}
+
+	&__red-label {
+		
+		font-size: 15px;
+		text-transform: uppercase;
+		color: $color--white;
+		background-color: $color--red;
+		padding: 10px 15px;		
+		height: 100%;
+		text-align: center;
+		border-top-left-radius: 15px;
+		
+		
+	}
+
+	&__link {
+
+		&:hover {
+
+			text-decoration: underline;
+
+		}
+
+		
+	}
+
+	&__desc {
+
+		margin: 0;
+		padding: 10px 15px;
+		font-size: 15px;	
+
+		& > a {
+			color: $color--brand-main;
+			
+		}
+		
+	}
+}

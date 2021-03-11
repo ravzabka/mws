@@ -1,0 +1,47 @@
+/* Tag Styles */
+
+.tags {
+
+    margin-right: 5px;
+    margin-bottom: 5px;
+
+    &__container {
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 10px;
+
+
+    }
+
+    & > a {
+
+        background-color: $color--light;
+        // border: 1px solid $color--dark; 
+        color: $color--dark;   
+        text-decoration: none;  
+        font-size: 13px;
+        padding: 5px 10px;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+
+        transition: all .3s ease-out;
+
+
+        &:hover {
+
+             background-color: $color--dark;
+             color: $color--white;
+
+
+        }
+
+
+
+
+
+    }
+
+}
+ 

@@ -1,0 +1,16 @@
+.sticky {	
+
+	& > post__title {
+
+		margin-bottom: 30px;
+		position: relative;
+	}
+
+	
+	& > news-page__image {
+
+		width: 100%;
+		display: block;
+	}
+
+}

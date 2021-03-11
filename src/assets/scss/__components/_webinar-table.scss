@@ -1,0 +1,50 @@
+#content .webinar-table {
+
+	margin-top: 20px;
+	margin-bottom: 0;
+
+	& thead {
+
+		background-color: $color--orange;
+		color: $color--white;
+		
+	}
+
+	& thead th {
+
+		font-weight: 400;
+
+
+	}
+
+	& td {
+
+		background-color: $color--light;
+
+	}
+
+	& td, & th {
+
+		border: 1px solid $color--white;
+
+
+	}
+
+	& input {
+
+		padding: 5px;
+	}
+
+}
+
+#content .daneosobowe-table {
+
+
+	margin-top: 20px;
+
+	& input, & textarea {
+
+		padding: 5px;
+	}
+}
+

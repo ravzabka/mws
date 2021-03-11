@@ -1,0 +1,90 @@
+//
+// ----------------------------------------
+// ADDITIONAL CSS RESET
+//
+// Basically we use normalize.css to reset styles
+// You can find it on __vendors/_normalize.scss
+// Here we add some additional reset of CSS
+//
+
+*, *:before, *:after { box-sizing: border-box; }
+
+ul {
+	margin: 0;
+	padding: 0;
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	-webkit-margin-start: 0;
+	-webkit-margin-end: 0;
+	-webkit-padding-start: 0; }
+
+// h1, h2, h3, h4, h5, h6 {
+// 	margin: 0;
+// 	padding: 0; }
+
+ul {
+
+	list-style-type: none;
+}
+
+li {
+
+	list-style-type: none;
+}
+
+
+
+#content table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+  
+
+#content table  th,
+ #content table td {
+    padding: 10px;
+    vertical-align: top;
+    border: 1px  solid $color--dark;
+  }
+
+#content table  thead th {
+    vertical-align: bottom;
+    border-bottom: 2px  solid $color--light;
+  }
+
+ #content table tbody + tbody {
+    border-top: 2px solid $color--light;
+  }
+
+
+
+
+figure {
+
+	margin: 0;
+}
+table {
+
+	margin-bottom: 30px;
+}
+
+table tr td{
+
+	padding: 5px 10px;
+}
+
+iframe, button { border: none; }
+
+fieldset {
+	border: 0;
+	margin: 0;
+	padding: 0;
+
+	-webkit-margin-start: 0;
+	-webkit-margin-end: 0;
+	-webkit-padding-before: 0;
+	-webkit-padding-start: 0;
+	-webkit-padding-end: 0;
+	-webkit-padding-after: 0;
+	min-width: auto; }

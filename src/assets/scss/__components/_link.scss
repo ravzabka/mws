@@ -1,0 +1,14 @@
+.link {
+
+	display: inline;
+	color: $color--blue;
+	text-decoration: underline;			
+
+	&:hover {
+
+		color: $color--red;
+		text-decoration: underline;				
+		
+	}
+	
+}

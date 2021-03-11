@@ -1,0 +1,124 @@
+.our-events {
+
+	
+	padding-top: 10px;
+
+	&__container {
+
+		display: flex;
+		justify-content: space-between;
+
+	}
+
+	&__btn {
+
+		float: right;
+	}
+
+	&__box {
+
+		position: relative;
+		border-bottom-right-radius: 15px;
+		border-top-left-radius: 15px;
+		overflow: hidden;
+	}
+
+	&__box-content {
+	
+		
+		width: 100%;		
+		
+		// background: rgb(21,129,194);
+		// background: linear-gradient(0deg, rgba(21,129,194,1) 0%, rgba(0,0,0,1) 0%, rgba(57,57,57,0.7511379551820728) 50%, rgba(255,255,255,0) 100%);
+
+
+	
+	
+	}			
+
+	&__download-box {
+
+		display: flex;
+		//padding: 0 0 0 20px;
+		align-items: center;
+		margin-top: 10px;
+		justify-content: space-between;
+
+
+	}
+
+	&__date-info {
+
+		font-size: 16px;		
+		margin: 0;
+		font-weight: 500;
+	}
+
+	&__newspaper-image {
+
+		border-top-left-radius: 20px;
+		border-bottom-right-radius: 20px;	
+
+	}
+
+	&__col {
+
+		margin-bottom: 20px;
+		
+
+
+	}
+
+	&__box-title a {
+
+		font-size: 21px;	
+		margin-bottom: 5px;
+		font-weight: 400;
+		color: $color--brand-main;
+		
+
+		&:hover {
+
+			color: $color--white!important;
+
+
+		}
+	}
+
+	&__desc {
+
+		font-size: 16px;
+		margin:0;			
+		font-weight: 500;
+		color: $color--white;
+		text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
+
+
+	}
+
+	&__title {
+
+		font-size: 18px;
+		text-transform: uppercase;
+		padding-bottom: 5px;		
+		margin-bottom: 20px;
+		font-weight: 700;
+		border-bottom: 2px solid $color--brand-main;
+	}
+
+
+	&__image {
+
+		width: 100%;
+		display: block;
+		// filter: grayscale(20%);
+		filter: brightness(90%);
+	}
+}
+
+//  .slick-list {
+// 	border-bottom-right-radius: 20px!important;
+// 		border-top-left-radius: 20px!important;
+	
+// }
+

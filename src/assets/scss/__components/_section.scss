@@ -1,0 +1,12 @@
+.section {
+
+	&__title {
+
+		font-size: 21px;
+		text-transform: uppercase;
+		padding-bottom: 5px;		
+		margin-bottom: 20px;
+		font-weight: 700;
+		border-bottom: 2px solid $color--brand-main;
+	}
+}

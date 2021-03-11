@@ -1,0 +1,147 @@
+.footer {
+
+	padding-top: 40px;	
+	background-color: $color--brand-main;
+	color: $color--white;
+
+	&__second {
+
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+
+	&__container {
+
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+
+
+	}
+
+	&__copyrights {
+
+		font-size: 13px;
+		padding-top: 5px;
+		margin:0;
+	}
+
+	&__col {
+
+		margin-bottom: 20px;
+
+
+	}
+
+	&__title {
+
+		font-size: 15px;
+		font-weight:600;
+		text-transform: uppercase;
+		margin-bottom: 15px;
+
+		& > a {
+
+			color: $color--white;
+
+		}
+		
+
+		&:hover a {
+			
+			color: $color--white;
+
+		}
+	}
+
+	&__desc {
+
+		font-size: 14px;
+		line-height: 1.5;
+		opacity: 0.8;
+		margin-top: 20px;
+	}
+	&__logo-image {
+
+		margin-bottom: 10px;
+		max-width: 173px;
+		height: auto;
+	}
+
+	&__company-name {
+
+		font-size: 15px;
+		margin-bottom: 10px;
+		font-weight:600;
+		text-transform: uppercase;
+
+	}
+
+	&__facebook {
+
+		display: block;
+		max-width: 340px;
+
+
+	}
+
+	&__address {
+
+		font-size: 14px;
+		font-style: normal;
+		line-height: 1.6;
+	}
+
+	&__nav-list {
+
+
+		& li {
+
+			padding: 2px 0;
+			list-style-type: none;
+
+			& a {
+
+				font-size: 13px;				
+				color: $color--white;
+				opacity: 0.8;
+
+			&:hover {
+
+				
+				color: $color--white;
+				opacity: 1;
+				
+				}
+			}
+		}
+	}	
+
+	&__nav-row {
+
+
+		& li {
+
+			padding: 2px 0;
+			display: inline-block;
+			margin-right: 10px;
+
+			& a {
+
+				font-size: 13px;
+				margin-bottom: 8px;
+				color: $color--white;
+				opacity: 0.8;
+
+			&:hover {
+
+				
+				color: $color--white;
+				opacity: 1;
+				
+				}
+			}
+		}
+	}	
+}

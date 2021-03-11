@@ -1,0 +1,110 @@
+.category-tag {
+
+    &__list {
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    font-size: 11px;
+    text-transform: uppercase;    
+    color:  $color--brand-main; 
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 4px 8px;  
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: $color--light; 
+    
+        & > a {
+
+                color: $color--brand-main;
+
+            }
+
+        &:hover {
+
+            color: $color--white;
+            background-color: $color--brand-main;
+
+
+        }
+
+        &:hover a {
+
+            color: $color--white;
+
+        }
+    
+
+
+
+    &--green {
+
+    	background-color: $color--green;
+        color:  $color--white;  
+
+        & > a {
+
+             color:  $color--white;  
+
+
+        }
+       
+    }
+
+    &--yellow {
+
+    	background-color: $color--yellow;
+        color:  $color--white;  
+        & > a {
+
+             color:  $color--white;  
+
+
+        }
+       
+    }
+
+    &--brown {
+
+    	background-color: $color--brown;
+        color:  $color--white;  
+        & > a {
+
+             color:  $color--white;  
+
+
+        }
+     
+    }
+
+    &--blue {
+
+    	background-color: $color--blue;
+        color:  $color--white; 
+        & > a {
+
+             color:  $color--white;  
+
+
+        } 
+       
+    }
+
+    &--red {
+
+    	background-color: $color--red;
+        color:  $color--white; 
+        & > a {
+
+             color:  $color--white;  
+
+
+        } 
+        
+    }
+
+
+}

@@ -1,0 +1,120 @@
+//
+// ----------------------------------------
+// GENERAL
+//
+// The most general styles for
+// <html>, <body> and .container
+//
+
+
+
+body {
+	// background-color
+	font-family: $font--text;
+	color: $color--brand-main;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+img {
+
+	max-width: 100%;
+	height: auto;
+	display: block;
+	
+	
+}
+hr {
+
+	border-top: 1px solid rgba($color--brand-main, 1);
+	margin-top:0 ;
+	margin-bottom: 20px;
+}
+
+.content-area {
+
+	padding-top: 40px;
+	padding-bottom: 40px;	
+}
+
+.space {
+
+	padding-top: 20px;
+}
+
+p a {
+
+	color: $color--blue;
+
+	&:hover {
+
+		color: $color--red;
+		
+	}
+}
+
+a {
+
+	color: $color--blue;
+
+	&:hover {
+
+		color: $color--red;
+		text-decoration: none;
+	}
+}
+.grecaptcha-badge { visibility: hidden; }
+
+.container {
+
+	// width: 100%;
+	// margin: 0 auto;
+	padding: 0 15px;
+
+	// @include media('>=xl') { width: 1280px!important; }
+}
+
+.justify-right {
+
+	justify-content: flex-end;	
+
+}
+.justify-left {
+
+	justify-content: flex-start;	
+
+}
+
+.justify-center {
+
+	justify-content: center;	
+
+}
+
+
+
+.align-center {
+	text-align: center;
+}
+
+.align-right {
+	text-align: right;
+}
+
+.align-left {
+	text-align: left;
+}
+
+.separator-line {
+
+	border-bottom: 1px dashed rgba(105,105,105, .5);
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+.wp-block-image figcaption {
+
+	font-style: italic;
+	text-align: center;
+	margin-top: 0;
+}

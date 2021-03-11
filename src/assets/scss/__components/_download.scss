@@ -1,0 +1,78 @@
+.download {
+
+	&__item-container {
+
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	&__item {
+
+		max-width: 170px;
+		text-align: center;
+		margin-bottom: 30px;
+		
+
+	}
+
+	&__title {
+
+		font-size: 16px;
+		line-height: 2;
+		font-weight: 400;
+		margin:0;
+		margin-left: 10px;
+
+		&:hover + a.download__btn {
+
+			opacity: 1;
+
+
+		}
+		
+	}
+
+	&__image {
+
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	&__container {
+
+		border-bottom: 1px dashed rgba(105,105,105, .5);
+		margin-bottom: 5px;
+		padding-top: 5px;
+		padding-bottom: 10px;
+
+
+	}
+
+	&__btn {
+
+		display: flex;
+		justify-content: flex-start;
+		align-items: flex-start;
+		padding: 5px 0;
+		opacity: 0.9;
+		color: $color--brand-main;
+		transition: all .3s ease;		
+
+		& > img {
+
+			max-width: 25px;
+			margin-top: 5px;
+			
+		}
+
+		&:hover {
+
+			opacity: 1;
+			color: $color--red;
+		}
+
+		
+	}
+}

@@ -1,0 +1,55 @@
+.events-page {
+
+	&__item {
+
+		display: flex;
+		flex-direction: row;
+		margin-bottom: 30px;
+		padding-bottom: 20px;
+		border-bottom: 1px solid rgba(105,105,105, .1);
+
+	}
+
+	&__date {
+
+		
+
+		display: flex;
+		padding: 10px;
+		max-width: 240px;
+		flex-direction: column;
+		border: 1px solid $color--brand-main;
+		margin-bottom: 10px;
+
+
+	}
+
+	&__image {
+
+		max-width: 220px;
+		margin-right: 20px;
+	}
+
+	&__category {
+
+		margin-top: 5px;
+		margin-bottom: 5px;
+		display: block;
+
+		
+	}
+
+	&__place {
+
+		
+		font-size: 12px;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+
+
+	&__item-title {
+
+		font-size: 21px;
+	}
+}

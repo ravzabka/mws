@@ -1,0 +1,54 @@
+.wpcf7 {
+
+	& input[type="text"],
+	& input[type="email"],
+	& textarea {
+
+		display: block;
+		width: 100%;
+		padding: 7px;
+		font-size: 14px;
+		line-height: 1.4;
+		color: $color--brand-main;
+		outline: none;  
+  		border: 1px solid rgba($color--brand-main,.3);
+  		transition: all 0.30s ease-in-out;
+
+  		&:focus {
+
+  			box-shadow: 0 0 5px rgba(81, 203, 238, 1); 
+  			border: 1px solid rgba($color--brand-main,.3);
+  		}	
+  	
+
+	}
+
+	&-submit {
+
+		display: inline-block;
+		padding: 12px 20px;
+		background-color: $color--green;
+		color: $color--white;
+		font-size: 14px;
+		font-weight: 500;
+		text-transform: uppercase;
+		transition: all .3s ease-out;
+		border-radius: 0;
+		border: 1px solid $color--green;
+		border-top-left-radius: 10px;
+		border-bottom-right-radius: 10px;	
+
+		&:hover {
+
+			background-color: $color--brand-main;
+			color: $color--white;
+			border: 1px solid $color--brand-main;
+		}
+	}
+}
+
+.wpcf7-validates-as-required.wpcf7-not-valid {
+
+	border: 1px solid $color--red!important;
+
+ }

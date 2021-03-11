@@ -1,0 +1,50 @@
+.news {
+
+	margin-bottom: 30px;
+
+	&__title {
+
+		font-size: 15px;
+		margin-bottom: 5px;
+	}
+
+	margin-bottom: 30px;
+
+	&__list {
+
+		display: flex;
+		flex-direction: column;
+
+
+	}
+
+	&__item {
+
+			
+		transition: all .3s ease-out;
+	}
+
+	
+
+
+	&__link {
+
+		// width: 100%;
+		// display: inline-block;
+		// font-size: 15px;
+		// padding: 10px;	
+		// line-height:1.2;	
+		// transition: all .3s ease;
+		
+		
+
+		&:hover {
+
+			
+			text-decoration: underline;
+
+			
+		}
+
+	}
+}
